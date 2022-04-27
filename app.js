@@ -1,14 +1,14 @@
-
+ 
 //console.log("Hey I'm here")
 //console.log(explorers)
 // Part 2: Get the quantity of explorers names in node
 const explorersInNode = explorers.filter((explorer) => explorer.mission == "node");
-console.log('Explorers en node:' + explorersInNode.length)
+console.log("Explorers en node:" + explorersInNode.length);
 
 // Part4: Get the explorer's usernames in Node
 const explorersInNodeToGetUsernames = explorers.filter((explorer) => explorer.mission == "node");
 const usernamesInNode = explorersInNodeToGetUsernames.map((explorer) => explorer.githubUsername);
-console.log(usernamesInNode)
+console.log(usernamesInNode);
 
 // DEAD CODE: Part 5,6,7, please remove this and go to Part 8!
 
