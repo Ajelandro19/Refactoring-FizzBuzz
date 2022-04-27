@@ -6,5 +6,6 @@ const explorers= Reader.readJsonFlie("explorers.json");
 
 // Aplicación del ExplorerService sobre la lista de explorers
 console.log(ExplorerService.filterByMission(explorers, "node"));
-/* ExplorerService.getAmountOfExplorersByMission(explorers, "node");
-ExplorerService.getExplorersUsernamesByMission(explorers, "node"); */
+console.log(ExplorerService.getAmountOfExplorersByMission(explorers, "node"));
+const usernames=ExplorerService.getExplorersUsernamesByMission(explorers, "node");
+console.log(usernames[0])
